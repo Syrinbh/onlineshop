@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>best shop | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+
+    <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </head>
+  <body>
+    
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/shoplogo.jpeg" alt="" width="125px"
+              /></a>
+            </div>
+            
+            <nav class="navbarsearch">
+              <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search for a product...">
+                
+                <button class="search-btn">
+                  <ion-icon name="search-outline"></ion-icon>
+                </button>
+              </div>
+            </nav>
+            <nav>
+     
+              <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              
+              <li><a href="account.html">Account</a></li>
+              <!-- TODo: 22:20 -->
+            </ul>
+          </nav>
+          
+          <a href="cart.html"
+            ><img src="images/cart.png" alt="" width="30px" height="30px"
+          /></a>
+          <img
+            src="images/menu.png"
+            alt=""
+            class="menu-icon"
+            onclick="menutoggle()"
+          />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              shop with <br />
+              good prices
+            </h1>
+            <p>
+              Our website features a user-friendly interface designed to enhance your shopping experience.
+              we prioritize customer satisfaction!!
+            </p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="images/blog-3 copie.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+   <!--
+            - PRODUCT FEATURED
+          -->
+          <div class="product-featured">
+              
+            <h2 class="title">Deal of the day</h2>
+            
+            <div class="showcase-wrapper has-scrollbar">
+              
+              <div class="showcase-container">
+                
+                <div class="showcase">
+                  
+                  <div class="showcase-banner">
+                    <img src="./images/shampoo copie.jpg" alt="shampoo, conditioner & facewash packs" class="showcase-img">
+                  </div>
+                  
+                  <div class="showcase-content">
+                    
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    
+                    <a href="#">
+                      <h3 class="showcase-title">shampoo, conditioner & facewash packs</h3>
+                    </a>
+                    
+                    <p class="showcase-desc">
+                    For hair care, a collection of shampoo, conditioner and facewash packs for skin care 
+                  </p>
+
+                  <div class="price-box">
+                    <p class="price">$150.00</p>
+
+                    <del>$200.00</del>
+                  </div>
+                  
+                  <button class="add-cart-btn">add to cart
+                  </button>
+                  
+                  <div class="showcase-status">
+                    <div class="wrapper">
+                      <p>
+                        already sold: <b>20</b>
+                      </p>
+                      
+                      <p>
+                        available: <b>40</b>
+                      </p>
+                    </div>
+                    
+                    <div class="showcase-status-bar"></div>
+                  </div>
+                  
+                  <div class="countdown-box">
+                    
+                    <p class="countdown-desc">
+                      Hurry Up! Offer ends in:
+                    </p>
+                    
+                    <div class="countdown">
+                      
+                      <div class="countdown-content">
+                        
+                        <p class="display-number">360</p>
+                        
+                        <p class="display-text">Days</p>
+                        
+                      </div>
+                      
+                      <div class="countdown-content">
+                        <p class="display-number">24</p>
+                        <p class="display-text">Hours</p>
+                      </div>
+                      
+                      <div class="countdown-content">
+                        <p class="display-number">59</p>
+                        <p class="display-text">Min</p>
+                      </div>
+                      
+                      <div class="countdown-content">
+                        <p class="display-number">00</p>
+                        <p class="display-text">Sec</p>
+                      </div>
+                      
+                    </div>
+                    
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            
+            <div class="showcase-container">
+              
+              <div class="showcase">
+                
+                <div class="showcase-banner">
+                  <img src="./images/jewellery-1 copie.jpg" alt="Rose Gold diamonds Earring" class="showcase-img">
+                </div>
+                
+                <div class="showcase-content">
+                  
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+                  
+                  <h3 class="showcase-title">
+                    <a href="#" class="showcase-title">Rose Gold diamonds Earring</a>
+                  </h3>
+                  
+                  <p class="showcase-desc">
+                    
+                  </p>
+                  
+                  <div class="price-box">
+                    <p class="price">$1990.00</p>
+                    <del>$2000.00</del>
+                  </div>
+                  
+                  <button class="add-cart-btn">add to cart</button>
+                  
+                  <div class="showcase-status">
+                    <div class="wrapper">
+                      <p> already sold: <b>15</b> </p>
+                      
+                      <p> available: <b>40</b> </p>
+                    </div>
+                    
+                    <div class="showcase-status-bar"></div>
+                  </div>
+                  
+                  <div class="countdown-box">
+                    
+                    <p class="countdown-desc">Hurry Up! Offer ends in:</p>
+                    
+                    <div class="countdown">
+                      <div class="countdown-content">
+                        <p class="display-number">360</p>
+                        <p class="display-text">Days</p>
+                      </div>
+            
+                      <div class="countdown-content">
+                        <p class="display-number">24</p>
+                        <p class="display-text">Hours</p>
+                      </div>
+                      
+                      <div class="countdown-content">
+                        <p class="display-number">59</p>
+                        <p class="display-text">Min</p>
+                      </div>
+                      
+                      <div class="countdown-content">
+                        <p class="display-number">00</p>
+                        <p class="display-text">Sec</p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+            
+          </div>
+          
+        </div>
+        
+        
+        
+    <!----- Featurd Products--------->
+    <div class="small-container">
+      <h2 class="title">This Summer</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="product-details.html">
+            <img src="pictures/products/dress.jpg" alt=""
+          /></a>
+          <h4>black dress</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$100.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="pictures/products/dress4.jpg" alt="" />
+          <h4>  flower printed dress </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="pictures/products/shoessummer.jpg" alt="" />
+          <h4>Summer shoes for women </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$80.00</p>
+        </div>
+        <div class="col-4">
+          <img src="pictures/products/shirt3.jpg" alt="" />
+          <h4> T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$30.00</p>
+        </div>
+      </div>
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="pictures/products/shirt5.jpg" alt="" />
+          <h4> T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$27.50</p>
+        </div>
+
+        <div class="col-4">
+          <img src="pictures/products/dress6.jpg" alt="" />
+          <h4>yellow dress</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$40.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="pictures/products/white.jpg" alt="" />
+          <h4>White top </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$20.45</p>
+        </div>
+        <div class="col-4">
+          <img src="pictures/products/hat.jpg" alt="" />
+          <h4>summer hat </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$40.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="pictures/products/sunglasses.jpg" alt="" />
+          <h4>sunglasses differetn colors and shapes </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$20.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="pictures/products/jewlery.jpg" alt="" />
+          <h4>simple white bracelets</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$24.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="pictures/products/black.jpg" alt="" />
+          <h4>simple bag   </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$35.50</p>
+        </div>
+        <div class="col-4">
+          <img src="pictures/products/skirt3.jpg" alt="" />
+          <h4>stylish skirt </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$40.00</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    
+
+ 
+    <!-------- Offer -->
+      
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="pictures/products/50.jpg" class="offer-img" alt="" />
+          </div>
+          <div class="col-2">
+            <p>Exclusively available on Online shop</p>
+            <h1>This summer 50% discount </h1>
+            
+
+            <a href="" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!------ Testimonial  ------>
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+
+            <p>
+              I'm a web developer and this website is for 
+              everyone who wants to shop online . Embrace the joy of shopping with confidence, knowing that we are committed to offering you nothing but the best. 
+              Start your journey with us today and let us bring your shopping dreams to life.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/s.jpeg" alt="" />
+            <h3>Syrine Ben Hassine </h3>
+          </div>
+
+
+         
+        </div>
+      </div>
+    </div>
+
+    <!--
+            - SERVICE
+          -->
+
+          <div class="service">
+
+            <h2 class="title">Our Services</h2>
+
+            <div class="service-container">
+
+              <a href="#" class="service-item">
+
+                <div class="service-icon">
+                  <ion-icon name="boat-outline"></ion-icon>
+                </div>
+
+                <div class="service-content">
+
+                  <h3 class="service-title">Worldwide Delivery</h3>
+                  <p class="service-desc">For Order Over $100</p>
+
+                </div>
+
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Next Day delivery</h3>
+                  <p class="service-desc">UK Orders Only</p>
+              
+                </div>
+              
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Best Online Support</h3>
+                  <p class="service-desc">Hours: 8AM - 11PM</p>
+              
+                </div>
+              
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="arrow-undo-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Return Policy</h3>
+                  <p class="service-desc">Easy & Free Return</p>
+              
+                </div>
+              
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="ticket-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">30% money back</h3>
+                  <p class="service-desc">For Order Over $100</p>
+              
+                </div>
+              
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    
+    
+    <!-- Footer -->
+    <div class="footer">
+      
+      
+      <div class="container">
+        <div class="row">
+        <!------------------social icons -------------------->
+        <!--
+          <div class="footer-col-2">
+            <img src="images/shoplogo.jpeg" alt="" />
+            <p>
+              Have a good shopping! Don't forget to sign up if you're new
+            </p>
+          </div>
+          <div class="footer-col-3">
+          -->
+          <!--other things for footer-->
+          <section>    
+            <div id="containerFooter">
+              
+              <div id="webFooter">
+                <h3> online store </h3>
+                <p> men clothing </p>
+                <p> women clothing </p>
+                <p> men accessories </p>
+                <p> women accessories </p>
+              </div>
+              <div id="webFooter">
+                <h3> helpful link </h3>
+                <p> home </p>
+                <p> about </p>
+                <p> contact </p>
+              </div>
+              <div id="webFooter">
+                <h3> partners </h3>
+                <p> zara </p>
+                <p> pantaloons </p>
+                <p> levis </p>
+                <p> ucb </p>
+                <p> + many more </p>
+              </div>
+              <div id="webFooter">
+                <h3>Useful Links</h3>
+                <ul>
+                  <li>Coupons</li>
+                  <li>Blog Post</li>
+                  <li>Return Policy</li>
+                  <li>Join Affiliate</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="footer-col-1">
+              <div id="webFooter">
+                <div class="home-sci">
+                  <h3> Follow us  </h3>
+                  <a href="#"><i class='bx bxl-facebook'></i></a>
+                  <a href="#"><i class='bx bxl-instagram'></i></a>
+                  <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                 
+            
+                  </div>
+                  
+                  <h3>Download Our App</h3>
+                  <p>
+                    Download App for Android <br />
+                    and ios mobile phone
+                  </p>
+                  <div class="app-logo">
+                    <img src="images/play-store.png" alt="" />
+                    <img src="images/app-store.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+            
+              
+        </section>
+
+        <div class="container2">
+
+        <img src="./images/payment copie.png" alt="payment method" class="payment-img">
+        </div>
+        <p class="copyright">Copyright 2020 - introidx</p>
+      </div>
+    </div>
+    <!-- JS for Toggle menu -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+    
+  </body>
+</html>

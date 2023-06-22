@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products - online shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/shoplogo.jpeg" alt="" width="125px"
+          /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            
+            <li><a href="account.html">Account</a></li>
+            <!-- TODo: 22:20 -->
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="images/cart.png" alt="" width="30px" height="30px"
+        /></a>
+        <img
+          src="images/menu.png"
+          alt=""
+          class="menu-icon"
+          onclick="menutoggle()"
+        />
+      </div>
+    </div>
+    
+
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>All Products</h2>
+        <select name="" id="">
+          <option value="">Default Sorting</option>
+          <option value="">Sort by Price</option>
+          <option value="">Sort by Popularity</option>
+          <option value="">Sort by Rating</option>
+          <option value="">Sort by sales</option>
+        </select>
+      </div>
+      <div class="header-top-actions">
+
+        <select name="currency">
+
+          <option value="usd">USD &dollar;</option>
+          <option value="eur">EUR &euro;</option>
+          <option value="dinar">DT</option>
+
+        </select>
+
+        <select name="language">
+
+          <option value="en-US">English</option>
+          <option value="en-US">Arabic</option>
+          <option value="es-ES">Espa&ntilde;ol</option>
+          <option value="fr">Fran&ccedil;ais</option>
+
+        </select>
+
+      </div>
+      <!--
+      - CATEGORY
+    -->
+    
+    
+    <div class="category">
+
+      <!-- ...category items... -->
+    </div>
+    <div>
+      <button id="prevButton"> < </button>
+      <button id="nextButton">></button>
+    </div>
+  </div>
+      <div class="container">
+
+        <div class="category-item-container has-scrollbar">
+          <div class="container">
+            <div class="category-item-container has-scrollbar">
+              <div class="category-item">
+                
+                <div class="category-img-box">
+              <img src="./assets/images/icons/dress.svg" alt="dress & frock" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Dress & frock</h3>
+
+                <p class="category-item-amount">(53)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/coat.svg" alt="winter wear" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Winter wear</h3>
+
+                <p class="category-item-amount">(58)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/glasses.svg" alt="glasses & lens" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Glasses & lens</h3>
+
+                <p class="category-item-amount">(68)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/shorts.svg" alt="shorts & jeans" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Shorts & jeans</h3>
+
+                <p class="category-item-amount">(84)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/tee.svg" alt="t-shirts" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">T-shirts</h3>
+
+                <p class="category-item-amount">(35)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/jacket.svg" alt="jacket" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Jacket</h3>
+
+                <p class="category-item-amount">(16)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/watch.svg" alt="watch" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Watch</h3>
+
+                <p class="category-item-amount">(27)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/hat.svg" alt="hat & caps" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Hat & caps</h3>
+
+                <p class="category-item-amount">(39)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-4">
+          <img src="pictures/djeans.jpg" alt="" />
+          <h4>basic djeans </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$40.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/shirt4.jpg" alt="" />
+          <h4>shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/shorts2.jpg" alt="" />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$30.50</p>
+        </div>
+        <div class="col-4">
+          <img src="images/heart.jpg" alt="" />
+          <h4>heart printed jeans </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/skirt3.jpg" alt="" />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$45.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/dress5.jpg" alt="" />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/blue.jpg" alt="" />
+          <h4>blue and white dress</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$60.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/green.jpg" alt="" />
+          <h4>Green dress</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$100.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/stylish.jpg" alt="" />
+          <h4>stylish trousers </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/whitee.jpg" alt="" />
+          <h4>Simple white dress</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$80.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/tropical.jpg" alt="" />
+          <h4>Tropical dress perfect for summer </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$70.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/dress6.jpg" alt="" />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+
+
+      <!--
+            - PRODUCT MINIMAL
+          -->
+
+            <div class="product-showcase">
+            
+              <h2 class="title">Top Rated</h2>
+            
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Watches</a>
+            
+                      <div class="price-box">
+                        <p class="price">$50.00</p>
+                        <del>$34.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Jewellery</a>
+            
+                      <div class="price-box">
+                        <p class="price">$84.00</p>
+                        <del>$30.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  
+          </div>
+
+
+      <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>
+              Download App for Android <br />
+              and ios mobile phone
+            </p>
+            <div class="app-logo">
+              <img src="images/play-store.png" alt="" />
+              <img src="images/app-store.png" alt="" />
+            </div>
+            <!--
+             <div class="footer-col-3">
+               <h3>Useful Links</h3>
+               <ul>
+                 <li>Coupons</li>
+                 <li>Blog Post</li>
+                 <li>Return Policy</li>
+                 <li>Join Affiliate</li>
+               </ul>
+             </div>
+             
+             <div class="footer-col-4">
+               <h3>Follow us</h3>
+               <ul>
+                 <li>Facebook</li>
+                 <li>Twitter</li>
+                 <li>Instagram</li>
+                 <li>YouTube</li>
+               </ul>
+             </div>
+           -->
+          </div>
+          
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2020 - introidx</p>
+      </div>
+    </div>
+    <!-- JS for Toggle menu -->
+    <script >
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+      
+    </script>
+    <script src="rellax.min.js"></script>
+  </body>
+</html>
